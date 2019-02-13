@@ -1,1 +1,0 @@
-# sonika_maheshwari_cts
