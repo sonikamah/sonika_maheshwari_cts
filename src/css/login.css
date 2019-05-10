@@ -3,3 +3,78 @@
     color: "#FFFFFF";
     text-decoration: 'none';
 }
+
+/* Global resets */
+* {box-sizing: border-box; margin: 0; padding: 0;}
+body {font-family: "rooney-sans", Avenir-Book, Calibri, sans-serif; color: #424242; line-height: 1.4;}
+
+/* Fonts */
+h1 {
+  font-family: "rooney-web", 'AmericanTypewriter', Rockwell, serif;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+.floatLeft{
+  width: 500px;
+  display:block;
+  float:left;
+  margin-right: 15px;
+}
+.container {
+  margin: 2em auto;
+  max-width: 1030px;
+  text-align: center;
+  position: relative;
+}
+.header {
+  width: 100%;
+  top:0;
+  background-color: red;
+  height: 10%;
+}
+.footer {
+  background-color: red;
+  color: 424242;
+  height: 10%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.container {
+  border: 20px solid #229f8e;
+  width:500px;
+  height: 500px;
+  position: relative;
+}
+.loginBody {
+  position: relative;
+  height: 80%;
+  font-family: "rooney-web", 'AmericanTypewriter', Rockwell, serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  border: 1px transparent black;
+}
+.loginTable {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top:50%; 
+  font-family: "rooney-web", 'AmericanTypewriter', Rockwell, serif;
+  font-size: .7em;
+  font-weight: bold;
+  border: 1px transparent black;
+}
+.td-right {
+  padding-right: 20px;
+}
+/* COLORS: 
+  blue: #0000ff; (button)
+  green: #229f8e; (Background/Border)
+  light-green: #2da294; (Hyperlink Color)
+  black: #424242;
+  grey1: #b7b7b7 (Button)
+  grey2: #eee; (top background)
+  light-grey: #f1f1f1; (bottom background)
+*/
+
+/* Your CSS goes here */

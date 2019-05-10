@@ -1,0 +1,35 @@
+body{
+	background: #f1f1f1;
+  font-family: Arial;
+  text-align: center
+}
+
+#app{
+	background: #fff;
+	padding: 10px;
+  width: 200px;
+  position: relative;
+  margin: 0 auto;
+}
+h1{
+  background: #424242;
+  padding: 25px;
+  color: #fff;
+}
+h2{
+  color: #1CBC2C;
+   font-size: 3em;
+}
+button{
+  background: #eaeaea;
+  padding: 10px;
+  margin: 0 5px 0 0;
+  border:none;
+  border-bottom: 2px solid #777;
+  font-size: 1.1em
+}
+button:hover{
+  background: #EF5F3C;
+  color: #fff;
+  border-bottom: 2px solid #a15F3C;
+}

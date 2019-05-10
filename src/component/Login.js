@@ -33,13 +33,19 @@ export default class Login extends React.Component {
   
       if (redirectToReferrer) return <Redirect to={from} />;
   
-      return (
-        <div>
-            <br/>
-            Username: <input type="text" name="user" />
-            Password: <input type="password" name="password" />
-            <button className="logincss" onClick={this.login}>Login</button>
-            
+      return (    
+        <div className="container">
+          <div className="header"> Login Form</div>
+          <div className="loginBody">
+            <div className="loginTable">
+              <table>
+                <tr><td className="td-right">UserName: </td> <td> <input type="text" /></td></tr>
+                <tr><td> Password: </td> <td> <input type="password" /></td></tr>
+              </table>
+              <button className="btn"  onSubmit="">Submit</button>
+            </div>
+          </div>
+          <div className="footer"> FOOTER </div>
         </div>
       );
     }

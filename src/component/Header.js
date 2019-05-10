@@ -13,7 +13,10 @@ export default function Header() {
             <Link to="/about">About us</Link>
           </li>
           <li>
-            <Link to="/contactUs">Contact us</Link>
+            <Link to="/contact">Contact us</Link>
+          </li>
+          <li>
+          <Link to="/counter" className="counterExample">Counter</Link>
           </li>
         </div>
 
@@ -22,6 +25,7 @@ export default function Header() {
             <Link to="/login" className="headerLogin">Login</Link>
           </li>
         </div>
+        
       </ul>
     );
   }
