@@ -18,6 +18,9 @@ export default function Header() {
           <li>
           <Link to="/counter" className="counterExample">Counter</Link>
           </li>
+          <li>
+          <Link to="/render-props" className="counterExample">Render Props</Link>
+          </li>
         </div>
 
         <div className="pull-right">

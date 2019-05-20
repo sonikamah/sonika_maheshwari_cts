@@ -10,6 +10,7 @@ import Contact from "./component/Contact";
 import Home from "./component/Home";
 import Login from "./component/Login";
 import CounterContainer from "./component/CounterPage";
+import RenderPropsContainer from "./component/RenderProps";
 
 export const App = () => (
   <Router>
@@ -21,6 +22,7 @@ export const App = () => (
       <Route path="/contact" component={Contact} />
       <Route path="/login" component={Login} />
       <Route path="/counter" component={CounterContainer} />
+      <Route path="/render-props" component={RenderPropsContainer} />
 
 
       <Route path='/users' component={withAuthorization(PearsonUsers)}/>
